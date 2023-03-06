@@ -1415,7 +1415,7 @@ label {
 .button-primary:hover {
     background: transparent;
     transition: 300ms;
-    color: black;
+    color: transparent!important;
 }
 
 .button-primary.button-shadow::before {
@@ -1440,9 +1440,9 @@ label {
 }
 
 .site-header {
-    //position: relative;
+    position: relative;
     padding-top: 15px;
-    z-index: 2
+    z-index: 0;
 }
 
 .site-header::before {
@@ -1460,7 +1460,7 @@ label {
 }
 
 .site-header-inner {
-    //position: relative;
+    position: relative;
     display: flex;
     justify-content: space-between;
     align-items: center
@@ -2136,7 +2136,7 @@ hr::after,
 .is-loaded .header-logo-image {
     animation: fadeInLogo 0.35s both cubic-bezier(0.3, 0, 0.2, 1);
     will-change: transform;
-    height: 100px;
+    height: 80px;
 }
 
 .is-loaded .hero-media-image {
@@ -2170,11 +2170,23 @@ hr::after,
 
 .modal_title {
     font-size: 30px;
-    color: black;
+    color: black !important;
+    font-weight: bold;
 }
 
 
 
 .footer_logo {
     height: 100px;
+}
+
+.store_icons {
+   padding: 20px; 
+    flex: 1;
+}
+
+.flex {
+    display: flex;
+    flex-direction: row;
+    width: 120px;    
 }
