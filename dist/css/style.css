@@ -1558,7 +1558,7 @@ label {
     margin: 0 auto;
     box-shadow: 48px 16px 48px rgba(24, 37, 56, 0.12);
     border-radius: 4px;
-    height: 250px;
+    height: 350px;
     transform: perspective(1000px) rotateY(16deg) rotateX(2deg) rotateZ(-7deg) scaleY(0.95) translatex(2%)
 }
 
@@ -1667,7 +1667,7 @@ label {
 .features-box {
     margin: 0 auto;
     box-shadow: 48px 16px 48px rgba(24, 37, 56, 0.12);
-    //height:340px;
+    height:370px;
     transform: perspective(1000px) rotateY(10deg) translateY(2%)
 }
 
@@ -1899,7 +1899,7 @@ main {
     flex: none;
     width: 100%;
     display: inline-flex;
-    justify-content: center
+    justify-content: center;
 }
 
 .footer-brand,
